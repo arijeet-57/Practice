@@ -1,0 +1,146 @@
+.body {
+    background-color: #f2f4f7;
+    ;
+}
+
+
+.logo {
+    height: 106px;
+    display: flex;
+    margin-left: 450px;
+    margin-top: 230px;
+}
+
+.text{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin-left: 480px;
+
+}
+
+.Username {
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border: 1px solid #dddfe2;
+    height: 22px;
+    line-height: 16px;
+    vertical-align: middle;
+
+}
+
+#password {
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border: 1px solid #dddfe2;
+    height: 22px;
+    line-height: 16px;
+    vertical-align: middle;
+
+}
+
+.login-container {
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .1), 0px 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    padding-bottom: 24px;
+    padding-top: 16px;
+    margin-left: 1090px;
+    margin-right: 332px;
+    margin-top: -210px;
+    
+    
+    
+}
+
+.login {
+    border: none;
+    background-color: #0866ff;
+    border-radius: 6px;
+    padding: 0px 16px;
+    width: 332px;
+    cursor: pointer;
+    box-sizing: content-box;
+    font-size: 18px;
+    padding-top: 13px;
+    padding-bottom:13px;
+    color: #fff;
+   font-weight: bold;
+   
+}
+
+.link {
+    cursor: pointer;
+    text-align: center;
+    color: #0866ff;
+    text-decoration: none;
+    font-size: 14px;
+    direction: ltr;
+    line-height: 1.34;
+    font-family: Arial, Helvetica, sans-serif;
+   
+
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.bits {
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+
+}
+
+.account {
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a;
+    box-sizing: content-box;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    padding-top: 13px;
+    padding-bottom:13px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+.create {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+.brand {
+    font-size: 14px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1177px;
+    margin-right: 332px;
+
+}
+
+.create:hover {
+    text-decoration: underline;
+    
+}
