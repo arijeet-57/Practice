@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family:"Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #162A9A;}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #162A9A;
+    height: 90px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.logo a {
+    color:#F3D64C ;
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+
+}
+.logo .text {
+    display: flex;
+    color: white;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.navigation{
+    display: flex;
+    padding-right: 70px ;
+}
+.navigation ul{
+    display: flex;
+    list-style: none;
+    gap: 33px;
+    color: white;
+    align-items: center;
+}
+
+.navigation ul li {
+    transition: transform 0.2s ease, font-size 0.3s ease; 
+}
+
+.navigation ul li:hover{
+    color: #F3D64C ;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.textarea{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.textarea .touch {
+    font-size: 27px;
+    font-weight: 310;
+    color: white;
+}
+
+.Ideas .one , .two {
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    font-weight: 550;
+}
+
+.Ideas p {
+    display: flex;
+    color: white;
+    padding-top: 10px;
+}
+
+.one {
+    color:#F3D64C;
+    padding-top: 20px;
+}
+
+.two {
+    color: white;
+}
+
