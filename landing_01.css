@@ -83,6 +83,8 @@
     display: flex;
     color: white;
     padding-top: 10px;
+    font-size: 20px;
+    font-weight: 250;
 }
 
 .one {
@@ -94,3 +96,141 @@
     color: white;
 }
 
+.details {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.details .contact {
+    height: 20px;
+    width: 20px;
+    padding: 8px;
+    background-color: #F3D64C;
+    border-radius: 50%;
+
+}
+
+.details .det {
+    color: white;
+    margin-bottom: 4px;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.details .align {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.body {
+    display: flex;
+
+}
+
+.formsection {
+   margin-left: 820px;
+}
+
+.name-section {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: 450;
+    gap: 4px;
+    margin-top: 35px;
+}
+
+.name-section input[type="text"] {
+    border: none;
+    background-color: white;
+    padding-top: 13px ;
+    padding-bottom: 13px;
+    border-radius: 8px;
+    width: 400px;
+    padding: 13px 8px;
+}
+
+.secondrow {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.email-section {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: 450;
+    gap: 4px;
+}
+
+input[type="email"] {
+    border: none;
+    background-color: white;
+    padding-top: 13px ;
+    padding-bottom: 13px;
+    border-radius: 8px;
+    width: 200px;
+    padding: 13px 8px;
+}
+
+.number-section {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: 450;
+    gap: 4px;
+}
+
+.number-section input[type="text"] {
+    border: none;
+    background-color: white;
+    border-radius: 8px;
+    width: 190px;
+    padding: 13px 8px;
+}
+
+
+.mess-section {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: 450;
+    gap: 4px;
+    margin-top: 15px;
+
+}
+
+#message {
+    border: none;
+    background-color: white;
+    border-radius: 8px;
+    height: 200px;
+    padding: 8px;
+}
+
+#message:hover {
+    border: 3px solid black;
+}
+
+.button {
+    height: 45px;
+    width: 170px;
+    border: none;
+    background-color: #F3D64C;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 600;
+    transition: transform 0.2s ease, font-size 0.3s ease; 
+
+}
+
+.button:hover {
+    border:3px solid black;
+    cursor: pointer;
+    transform: scale(1.05);
+}
