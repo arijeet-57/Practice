@@ -234,6 +234,10 @@ body {
     border-radius: 6px;
 }
 
+.text-app-icon:hover{
+    background-color:  #f1c98d;
+}
+
 .text-app-icon:hover {
     cursor: pointer;
 }
@@ -333,6 +337,10 @@ body {
     border-radius: 6px;
 }
 
+.music-app-icon:hover {
+    background-color: #f06669 ;
+}
+
 #music-app-name{
     display: flex;
     flex-direction: column;
@@ -368,6 +376,10 @@ body {
     width: 30px;
     padding: 8px;
     border-radius: 6px;
+}
+
+.browser-app-icon:hover{
+    background-color: #66c2f7;
 }
 
 #browser-app-name{
