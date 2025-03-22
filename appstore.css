@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -22,18 +23,17 @@ body {
     background-color: #252525;
 }
 
-.header span{
+.header .brand{
     margin-top: 18px;
     font-family: "Montserrat", sans-serif;
-    font-weight: 600;
+    font-weight: 480;
     font-size: 50px;
     margin-left: 200px ;
     color: white;
+    width: 1000px;
 }
 
-.search {
-    
-}
+
 
 .header {
     display: flex;
@@ -118,4 +118,263 @@ body {
     border-radius: 5px;
     
 }
+
+.search-container {
+    position: relative;
+    width: 100%;
+}
+
+.header input[type="search"] {
+    width: 250px;
+    border: none;
+    background-color: white;
+    height: 30px;
+    border-radius: 33px;
+    padding: 10px 3px 10px 55px;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+.search-icon {
+    position: absolute;
+    left: 420px; /* Adjust to position the icon */
+    font-size: 18px;
+    color: gray;
+    padding-bottom: 19px;
+    color: #3A9570;
+    top: 32%;
+    bottom: 80%;
+
+}
+
+.user {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    margin-top: 26px;
+}
+
+.username {
+    font-size: 20px;
+    margin-right: 18px;
+    text-wrap: nowrap;
+    font-weight: 600;
+}
+
+.usermail {
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 55px;
+}
+
+.dp img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.new-app {
+    height: 365px;
+    width: 800px;
+    background-color:#252525;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.heading-new-app {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+
+}
+
+.heading-new-app .best-new {
+    margin-left: 25px;
+    color: white;
+    font-size: 25px;
+    font-weight: 550;
+}
+
+.heading-new-app .seeall{
+    margin-right: 25px;
+    font-weight: 300;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    padding-top: 2px;
+}
+
+.heading-new-app .seeall:hover {
+    text-decoration: underline;
+  
+}
+
+.apps {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-app {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.text-app-icon {
+    color: white;
+    background-color: #F0B457;
+    height: 30px;
+    width: 30px;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.text-app-icon:hover {
+    cursor: pointer;
+}
+
+.text-app-name-icon {
+    display: flex;
+    gap: 15px;
+}
+
+#text-app-name {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 5px
+}
+
+#editapp{
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+#create  {
+    font-size: 13px;
+    color: grey;
+    
+}
+
+.button-star {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-left: ;
+}
+
+.Download {
+    border: none;
+    background-color: white;
+    font-weight: 550;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 12px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.Download:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.starone, .startwo, .starthree, .starfour, .starfive {
+    height: 12px;
+    gap: 2px;
+    color: white
+}
+
+.starone, .startwo, .starthree, .starfour {
+    color: #F0B457;
+}
+
+
+.line {
+    width: 690px;
+    height: 1.5px;
+    background-color: grey;
+    margin-top: 15px;
+    margin-left: 86px;
+}
+
+.music-app {
+    
+}
+
+.music-app {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.music-app-name-icon{
+    display: flex;
+    gap: 15px;
+}
+
+.music-app-icon{
+    color: white;
+    background-color: #F14446;
+    height: 30px;
+    width: 30px;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+#music-app-name{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 5px
+}
+
+.starfives {
+    color: #F0B457;
+    height: 12px;
+    gap: 2px;
+}
+
+.browser-app{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.browser-app-name-icon{
+    display: flex;
+    gap: 15px;
+}
+
+.browser-app-icon{
+    color: white;
+    background-color: #37B6FF;
+    height: 30px;
+    width: 30px;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+#browser-app-name{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 5px
+}
+
 
