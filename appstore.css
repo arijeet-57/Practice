@@ -38,7 +38,6 @@ body {
 .header {
     display: flex;
     flex-direction: row;
-    font-family: ;
 }
  
 .sidebar {
@@ -270,7 +269,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2px;
-    margin-left: ;
+
 }
 
 .Download {
@@ -309,9 +308,6 @@ body {
     margin-left: 86px;
 }
 
-.music-app {
-    
-}
 
 .music-app {
     display: flex;
@@ -390,3 +386,294 @@ body {
 }
 
 
+.Top-free-app {
+    height: 290px;
+    width: 800px;
+    background-color:#252525;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.Top-free-app h3 {
+    margin-left: 25px;
+    color: white;
+    font-size: 25px;
+    font-weight: 550;
+    margin-top: 30px;
+
+}
+
+.top-see {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-see span {
+    margin-right: 25px;
+    margin-top: 30px;
+    color: white;
+    font-weight: 250;
+}
+
+.top-see span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.top-apps {
+    display: flex;
+    justify-content: space-around;
+}
+
+.calender span {
+    color: white;
+    margin-left: 23px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.calender {
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+    width: 140px;
+    margin-left: 25px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+#calender {
+    background-color: #079551;
+    color: white;
+    height: 80px;
+    width: 80px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#calender:hover{
+    background-color: #3A9570;
+    color: black;
+}
+
+.clock span {
+    color: white;
+    margin-left: 37px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.clock {
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+    width: 140px;
+    margin-left: 25px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+#clock {
+    background-color: #F0B457;
+    color: white;
+    height: 80px;
+    width: 80px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#clock:hover{
+    background-color: #f1c98d;
+    color: black;
+}
+
+.gallery span {
+    color: white;
+    margin-left: 33px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+    width: 140px;
+    margin-left: 25px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+#gallery {
+    background-color: #F14446;
+    color: white;
+    height: 80px;
+    width: 80px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#gallery:hover{
+    background-color: #f06669;
+    color: black;
+}
+
+.weather span {
+    color: white;
+    margin-left:28px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.weather {
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+    width: 140px;
+    margin-left: 25px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+#weather {
+    background-color: #37B6FF;
+    color: white;
+    height: 80px;
+    width: 80px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#weather:hover{
+    background-color: #66c2f7;
+    color: black;
+}
+
+#be-creative{
+    height: 685px;
+    width: 700px;
+    background-color: #252525;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+    flex-direction: column;
+}
+
+.y-axis {
+    display: flex;
+}
+
+.creative-heading {
+    display: flex;
+    gap: 440px;
+    margin-top: 17px;
+}
+
+.creative-heading h3{
+    color: white;
+    font-size: 25px;
+    text-wrap: nowrap;
+    margin-left: 25px;
+    font-weight: 550;
+}
+
+.creative-heading span{
+    color: white;
+    margin-top: 5px;
+}
+.creative-heading span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.photo {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo img{
+    width: 639px;
+    height: 230px;
+}
+
+.Editing {
+    margin-top: 20px ;
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-text span{
+    color: white;
+    text-wrap: nowrap;
+}
+
+#tsfm {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#cagv {
+    font-size: 13px;
+    margin-top: 3px;
+    color: grey;
+}
+
+.name-button-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 232px;
+    margin-top: 15px;
+}
+
+.download-star {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.download-star span {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 11px;
+}
+
+#cgv {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#mow {
+    font-size: 13px;
+    margin-top: 3px;
+    color: grey;
+}
+
+.id-button-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 327px;
+    margin-top: 15px;
+}
+
+.video {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+}
+
+.video img{
+    width: 639px;
+    height: 230px;
+}
