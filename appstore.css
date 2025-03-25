@@ -658,7 +658,7 @@ body {
     color: grey;
 }
 
-.id-button-section {
+.id-button-section { 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
