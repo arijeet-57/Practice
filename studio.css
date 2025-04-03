@@ -123,6 +123,7 @@ body {
     background-color: #FC7740;
     color: white;
     transition: transform 0.4s ease;
+    font-weight: 600;
 }
 
 .field-button button:hover {
@@ -314,14 +315,64 @@ input:checked +.slider ion-icon {
     align-items: center;
     background-color: #FFFFFF;
     border-radius: 20px;
+    text-align: center;
 }
 
 .grid .item:hover {
     transform: scale(1.05);
+    cursor: pointer;
 
 }
 
-.grid .item span {
-    font-size: 10px;
+.grid .item .name {
+    font-size: 11px;
     font-weight: 500;
+    margin-top: 17px;
 }
+
+.learnmore {
+    font-size: 9px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+#pen box-icon {
+    fill: #D23458 ;
+}
+
+#phone box-icon {
+    fill: #4C45C6;
+}
+
+#pencil box-icon {
+    fill: #F6B44B;
+}
+
+#chart box-icon {
+    fill: #F6B44B;
+}
+
+.paragraphing {
+    font-size: 7px;
+    margin-top: 10px;
+    color: grey;
+}
+
+#arrow-text {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#arrow {
+    margin-top: 9px;
+    font-size: 10px;
+}
+
+#arrow-text:hover {
+    color: #FC7740;
+}
+
+.learnmore:hover {
+    font-weight: 800;
+}   
