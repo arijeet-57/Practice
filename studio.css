@@ -69,7 +69,7 @@ body {
     width: 650px;
     align-items: center;
     height: 500px;
-    margin-left: 60px;
+    margin-left: 80px;
     margin-top: 50px;
 }
 
@@ -209,10 +209,10 @@ input:checked +.slider ion-icon {
 }
 
 .toggle-text{
-    width: 550px;
+    width: 650px;
     display: flex;
     justify-content: space-between;
-    margin-left: 80px;
+    margin-left: 100px;
     margin-top: 40px;
     height: 200px;
  
@@ -226,6 +226,7 @@ input:checked +.slider ion-icon {
     font-size: 23px;
     letter-spacing: none;
     line-height: 25px;
+    
 }
 
 .right-side{
@@ -376,3 +377,91 @@ input:checked +.slider ion-icon {
 .learnmore:hover {
     font-weight: 800;
 }   
+
+
+.image-bg {
+    height: 330px;
+    width: 325px;
+    background-color: white;
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-bg img {
+    height: 280px;
+    width: 310px;
+    margin-left: 8px;
+    margin-top: 6px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.image-bg ul {
+    list-style: none;
+    display: flex;
+    gap: 47px;
+    margin-left: 8.5px;
+    margin-top: 10px;
+}
+
+.image-bg ul li:hover {
+    cursor: pointer;
+}
+
+.image-bg ul #meta:hover  {
+    fill: blue;
+    transform: scale(1.1);
+}
+
+.image-bg ul #insta:hover  {
+    fill: purple;
+    transform: scale(1.1);
+}
+
+.image-bg ul #twt:hover  {
+    fill:#4C45C6;
+    transform: scale(1.1);
+}
+
+.image-bg ul #git:hover  {
+    transform: scale(1.1);
+}
+
+.image-bg ul #stm:hover  {
+    fill: navy;
+    transform: scale(1.1);
+}
+
+
+
+.grd-txt {
+    display: flex;
+}
+
+.services-txt {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 310px;
+    margin-top: 60px;
+    margin-left: 100px;
+    font-size: 30px;
+    border: 2px solid black
+    
+}
+
+.srv {
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.services-txt p {
+    font-size: 14.5px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+
